@@ -69,15 +69,15 @@ npm install clsx tailwind-merge
 
 GUIDE.md-এ defined structure তৈরি করো:
 
-- [ ] `src/components/ui/` ফোল্ডার তৈরি
-- [ ] `src/components/layout/` ফোল্ডার তৈরি
-- [ ] `src/components/sections/` ফোল্ডার তৈরি
-- [ ] `src/lib/` ফোল্ডার তৈরি
-- [ ] `src/hooks/` ফোল্ডার তৈরি
-- [ ] `src/types/index.ts` তৈরি (empty with TODO comments)
-- [ ] `src/app/api/contact/route.ts` তৈরি (empty placeholder)
-- [ ] `public/images/` ফোল্ডার তৈরি
-- [ ] **Commit:** `chore: scaffold project folder structure`
+- [x] `src/components/ui/` ফোল্ডার তৈরি
+- [x] `src/components/layout/` ফোল্ডার তৈরি
+- [x] `src/components/sections/` ফোল্ডার তৈরি
+- [x] `src/lib/` ফোল্ডার তৈরি
+- [x] `src/hooks/` ফোল্ডার তৈরি
+- [x] `src/types/index.ts` তৈরি (empty with TODO comments)
+- [x] `src/app/api/contact/route.ts` তৈরি (empty placeholder)
+- [x] `public/images/` ফোল্ডার তৈরি
+- [x] **Commit:** `chore: scaffold project folder structure`
 
 ### 1.4 Environment Setup
 
