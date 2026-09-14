@@ -319,7 +319,9 @@ npm run lint     # Clean
 
 ### 2.3 OG Image তৈরি
 
-- [ ] `public/images/og-image.png` তৈরি করো — Figma বা Canva দিয়ে (1200×630px), dark theme, name + role
+- [x] `public/images/og-image.jpg` তৈরি করা হলো — AI-generated, dark theme, 1200×630px, name + role + geometric glow decorations
+- [x] `layout.tsx`-এ `openGraph.images` ও `twitter.images` wire করা হলো
+- [x] **Commit:** `feat(seo): add OG image and wire openGraph/twitter metadata (Task 2.3)`
 
 ---
 
