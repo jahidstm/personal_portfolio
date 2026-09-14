@@ -9,6 +9,7 @@ interface SectionHeadingProps {
   subtitle?: string;
   centered?: boolean;
   className?: string;
+  id?: string;
 }
 
 const easing: Easing = [0.25, 0.46, 0.45, 0.94];
@@ -28,6 +29,7 @@ export function SectionHeading({
   subtitle,
   centered = false,
   className,
+  id,
 }: SectionHeadingProps) {
   const viewportOpts = { once: true };
 
@@ -46,6 +48,7 @@ export function SectionHeading({
         </motion.p>
       )}
       <motion.h2
+        id={id}
         className="text-3xl font-bold tracking-tight text-text-primary sm:text-4xl"
         initial="hidden"
         whileInView="visible"
