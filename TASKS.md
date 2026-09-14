@@ -195,8 +195,8 @@ export interface ContactFormData {
 }
 ```
 
-- [ ] সব interfaces `src/types/index.ts`-এ define করো
-- [ ] **Commit:** `feat(types): define TypeScript interfaces for all data models`
+- [x] সব interfaces `src/types/index.ts`-এ define করো
+- [x] **Commit:** `feat(types): define TypeScript interfaces for all data models`
 
 ### 1.9 `lib/constants.ts` — Data Foundation
 
