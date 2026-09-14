@@ -296,25 +296,26 @@ npm run lint     # Clean
 
 ### 2.1 Hero Section
 
-- [ ] `src/components/sections/Hero.tsx` তৈরি করো:
+- [x] `src/components/sections/Hero.tsx` তৈরি করা হলো:
   - Full viewport height (`min-h-screen`)
   - Staggered entrance: Name → Role → Tagline → CTAs → Scroll indicator
   - Gradient text on name "Jahid Hasan"
-  - Animated role display (AnimatedText component)
-  - Two CTAs: "View Projects" (primary) + "Download CV" (secondary ghost)
-  - GlowDot ambient decorations (2–3টা)
-  - Subtle floating geometric shapes (CSS only — no JS)
-  - Scroll-down arrow (AnimatePresence infinite bounce)
-- [ ] **Commit:** `feat(hero): add Hero section with staggered entrance animation`
+  - Animated dynamic role display (flipping between 4 roles)
+  - Two CTAs: "View Projects" (primary) + "Download CV" (secondary)
+  - 3× GlowDot ambient decorations + 4 CSS-only floating shapes
+  - Scroll-down bouncing arrow indicator
+- [x] **Commit:** `feat(hero): add Hero section with staggered entrance animation (Task 2.1)`
 
 ### 2.2 About Section
 
-- [ ] `src/components/sections/About.tsx` তৈরি করো:
-  - Profile photo (left) — scroll-triggered slide from left
-  - Bio text (right) — scroll-triggered slide from right
-  - 4 Quick Stats — counter animation (0 → number) on first viewport enter
-  - Available for work badge (green dot + text)
-- [ ] **Commit:** `feat(about): add About section with bio and stats`
+- [x] `src/components/sections/About.tsx` তৈরি করা হলো:
+  - Profile photo (left) — scroll-triggered slide from left + glow ring
+  - Bio text (right) — scroll-triggered slide from right (3 paragraphs)
+  - 4 Quick Stats — animated counter (0 → number) via IntersectionObserver
+  - "Open to Work" floating badge with pulsing green dot
+  - Location/education info pills + tech tag cloud
+- [x] `public/images/profile.png` ও `public/resume.pdf` যোগ করা হলো
+- [x] **Commit:** `feat(about): add About section with profile photo and resume (Task 2.2)`
 
 ### 2.3 OG Image তৈরি
 
