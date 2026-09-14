@@ -112,10 +112,10 @@ GUIDE.md-এ defined structure তৈরি করো:
 }
 ```
 
-- [ ] `.eslintrc.json` তৈরি করো
-- [ ] `.prettierrc` তৈরি করো
-- [ ] `npm run lint` রান করো — 0 errors
-- [ ] **Commit:** `chore: add ESLint and Prettier config`
+- [x] ESLint flat config (`eslint.config.mjs`) strict rules কনফিগার করা হলো
+- [x] `.prettierrc` তৈরি করা হলো
+- [x] `npm run lint` রান করো — 0 errors
+- [x] **Commit:** `chore: add ESLint and Prettier config`
 
 ### 1.6 `CLAUDE.md` তৈরি (AI Agent Rules)
 
