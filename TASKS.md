@@ -81,11 +81,11 @@ GUIDE.md-এ defined structure তৈরি করো:
 
 ### 1.4 Environment Setup
 
-- [ ] `.env.example` তৈরি করো (GUIDE.md Section 5-এ দেওয়া template)
-- [ ] `.env.local` তৈরি করো (actual values — `CONTACT_EMAIL` এবং `RESEND_API_KEY` placeholder রাখো)
-- [ ] `.gitignore`-এ `.env.local` আছে কিনা verify করো
-- [ ] **⚠️ Secret check:** `git status` দেখো — `.env.local` untracked থাকা উচিত, staged না
-- [ ] **Commit:** `chore: add .env.example template`
+- [x] `.env.example` তৈরি করো (GUIDE.md Section 5-এ দেওয়া template)
+- [x] `.env.local` তৈরি করো (actual values — `CONTACT_EMAIL` এবং `RESEND_API_KEY` placeholder রাখো)
+- [x] `.gitignore`-এ `.env.local` আছে কিনা verify করো
+- [x] **⚠️ Secret check:** `git status` দেখো — `.env.local` untracked থাকা উচিত, staged না
+- [x] **Commit:** `chore: add .env.example template`
 
 ### 1.5 Code Quality Tools
 
