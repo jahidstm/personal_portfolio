@@ -147,12 +147,10 @@ For detailed patterns and standards, see `docs/professional-web-development-life
 
 GUIDE.md Color Palette সম্পূর্ণ `src/app/globals.css`-এ implement করো:
 
-- [ ] সব CSS custom properties (dark + light mode) implement করো
-- [ ] Google Fonts (Inter + JetBrains Mono) `src/app/layout.tsx`-এ `next/font/google` দিয়ে load করো
-- [ ] `tailwind.config.ts` GUIDE.md Section 2-এ দেওয়া config দিয়ে update করো
-- [ ] Custom keyframe animations CSS-এ add করো (`float`, `pulse-glow`, `shimmer`)
-- [ ] **Commit:** `feat(design): implement color system and typography in globals.css`
-- [ ] **Commit:** `feat(design): extend Tailwind config with design tokens`
+- [x] সব CSS custom properties (dark + light mode) implement করো
+- [x] Google Fonts (Inter + JetBrains Mono) `src/app/layout.tsx`-এ `next/font/google` দিয়ে load করো
+- [x] Tailwind CSS v4 `@theme` design tokens ও keyframe animations CSS-এ add করো (`float`, `pulse-glow`, `shimmer`)
+- [x] **Commit:** `feat(design): implement color system and typography in globals.css`
 
 ### 1.8 TypeScript Types Define
 
