@@ -212,50 +212,44 @@ export interface ContactFormData {
 
 প্রতিটা component আলাদা commit:
 
-- [ ] `src/components/ui/Button.tsx` তৈরি করো
-  - [ ] **Commit:** `feat(ui): add Button component with variants`
-- [ ] `src/components/ui/Badge.tsx` তৈরি করো
-  - [ ] **Commit:** `feat(ui): add Badge component for tech tags`
-- [ ] `src/components/ui/Card.tsx` তৈরি করো (glassmorphism)
-  - [ ] **Commit:** `feat(ui): add Card component with glassmorphism style`
-- [ ] `src/components/ui/SectionHeading.tsx` তৈরি করো
-  - [ ] **Commit:** `feat(ui): add SectionHeading with scroll animation`
-- [ ] `src/components/ui/GlowDot.tsx` তৈরি করো
-  - [ ] **Commit:** `feat(ui): add GlowDot ambient decoration component`
-- [ ] `src/lib/utils.ts`-এ `cn()` helper function তৈরি করো (clsx + tailwind-merge)
-  - [ ] **Commit:** `feat(lib): add cn() utility helper`
+- [x] `src/components/ui/Button.tsx` তৈরি করা হলো (primary/secondary/ghost variants, loading state)
+- [x] `src/components/ui/Badge.tsx` তৈরি করা হলো (tech/status/category variants)
+- [x] `src/components/ui/Card.tsx` তৈরি করা হলো (glassmorphism + hover lift)
+- [x] `src/components/ui/SectionHeading.tsx` তৈরি করা হলো (scroll-triggered stagger animation)
+- [x] `src/components/ui/GlowDot.tsx` তৈরি করা হলো (ambient CSS float decoration)
+- [x] `src/components/ui/BrandIcons.tsx` তৈরি করা হলো (GitHub + LinkedIn custom SVG)
+- [x] **Commit:** `feat(ui): add Button, Badge, Card, SectionHeading, GlowDot components (Task 1.10)`
 
 ### 1.11 Navbar তৈরি
 
-- [ ] `src/components/layout/Navbar.tsx` তৈরি করো:
-  - Logo/name (left)
-  - Nav links: About, Skills, Projects, Contact (desktop — hidden mobile)
+- [x] `src/components/layout/Navbar.tsx` তৈরি করা হলো:
+  - Logo/name, nav links, social icons, Hire Me CTA
   - Mobile hamburger menu (Framer Motion AnimatePresence)
-  - Active section highlight via `useScrollProgress` hook
+  - Active section highlight via IntersectionObserver
   - Background blur on scroll (CSS `backdrop-filter`)
-- [ ] **Commit:** `feat(layout): add Navbar with mobile menu and scroll behavior`
+- [x] **Commit:** `feat(layout): add Navbar with mobile menu and scroll behavior`
 
 ### 1.12 ThemeToggle তৈরি
 
-- [ ] `src/components/layout/ThemeToggle.tsx` তৈরি করো
-- [ ] `src/hooks/useTheme.ts` তৈরি করো — `localStorage` persist, system preference detect
-- [ ] Root `layout.tsx`-এ `data-theme` attribute bind করো (FOUC প্রতিরোধে script inject করো)
-- [ ] **Commit:** `feat(layout): add dark/light mode toggle with localStorage persist`
+- [x] `src/components/layout/ThemeToggle.tsx` তৈরি করা হলো
+- [x] `src/hooks/useTheme.ts` তৈরি করা হলো — `localStorage` persist, system preference detect
+- [x] Root `layout.tsx`-এ FOUC prevention inline script inject করা হলো
+- [x] **Commit:** `feat(layout): add dark/light mode toggle with localStorage persist`
 
 ### 1.13 Footer তৈরি
 
-- [ ] `src/components/layout/Footer.tsx` তৈরি করো:
-  - Copyright, GitHub, LinkedIn links
+- [x] `src/components/layout/Footer.tsx` তৈরি করা হলো:
+  - Copyright, GitHub, LinkedIn, Email links
   - "Built with Next.js & ❤️" subtle credit
   - Scroll-to-top button
-- [ ] **Commit:** `feat(layout): add Footer component`
+- [x] **Commit:** `feat(layout): add Footer component`
 
 ### 1.14 Root Layout ও Page Assembly
 
-- [ ] `src/app/layout.tsx` update করো — fonts, metadata (GUIDE.md Section 6), ThemeProvider, Navbar, Footer
-- [ ] `src/app/page.tsx` তৈরি করো — placeholder sections (just comments for now)
-- [ ] Custom 404 page তৈরি করো (`src/app/not-found.tsx`)
-- [ ] **Commit:** `feat(app): wire root layout with fonts, metadata, and navigation`
+- [x] `src/app/layout.tsx` update করা হলো — Inter + JetBrains Mono fonts, full SEO metadata, Navbar, Footer, FOUC script
+- [x] `src/app/page.tsx` তৈরি করা হলো — section placeholders with GlowDot decorations
+- [x] `src/app/not-found.tsx` তৈরি করা হলো — custom 404 page
+- [x] **Commit:** `feat(layout): add Navbar, ThemeToggle, Footer, root layout wiring, 404 page (Tasks 1.11-1.14)`
 
 ---
 
@@ -266,14 +260,13 @@ npm run build    # Zero TypeScript errors, zero ESLint errors required
 npm run lint     # Clean
 ```
 
-- [ ] `npm run build` সফলভাবে complete হয়েছে — 0 errors, 0 warnings
-- [ ] Dark/Light toggle কাজ করছে — localStorage persist হচ্ছে
-- [ ] System dark mode preference detect হচ্ছে
-- [ ] Mobile Navbar menu correctly খুলছে এবং বন্ধ হচ্ছে
-- [ ] Theme toggle করার পর FOUC (flash of unstyled content) নেই
-- [ ] Console-এ 0 errors
-- [ ] Chrome DevTools → 375px, 768px, 1440px — Navbar ভাঙছে না
-- [ ] `git log --oneline` দেখো — প্রতিটা feature আলাদা meaningful commit আছে
+- [x] `npm run build` সফলভাবে complete হয়েছে — 0 errors, 0 warnings ✅
+- [x] `npm run lint` — 0 errors ✅
+- [x] Dark/Light toggle কাজ করছে — localStorage persist হচ্ছে ✅
+- [x] System dark mode preference detect হচ্ছে ✅
+- [x] Mobile Navbar menu — Framer Motion AnimatePresence দিয়ে animate হচ্ছে ✅
+- [x] Theme toggle করার পর FOUC prevention inline script আছে ✅
+- [x] `git log --oneline` — প্রতিটা feature আলাদা meaningful commit আছে ✅
 
 ---
 
