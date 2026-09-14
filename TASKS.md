@@ -331,12 +331,12 @@ npm run lint     # Clean
 npm run build   # Still clean
 ```
 
-- [ ] Hero-তে সব animations smooth — janky নয়
-- [ ] Mobile (375px): Hero text overflow করছে না, সব readable
-- [ ] Lighthouse → Chrome DevTools → Lighthouse tab → Performance >= 80
-- [ ] `prefers-reduced-motion: reduce` simulate করো → animations skip হচ্ছে
-- [ ] About section-এ profile photo aspect ratio ঠিক আছে সব screen-এ
-- [ ] **Commit:** `chore: phase 2 complete - hero and about sections verified`
+- [x] Hero-তে সব animations smooth — janky নয়
+- [x] Mobile (375px): Hero text overflow করছে না, সব readable
+- [x] Lighthouse → Chrome DevTools → Lighthouse tab → Performance >= 80
+- [x] `prefers-reduced-motion: reduce` simulate করো → animations skip হচ্ছে
+- [x] About section-এ profile photo aspect ratio ঠিক আছে সব screen-এ
+- [x] **Commit:** `chore: phase 2 complete - hero and about sections verified`
 
 ---
 
