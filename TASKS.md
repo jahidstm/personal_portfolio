@@ -202,11 +202,11 @@ export interface ContactFormData {
 
 এখানে শুধু confirmed data রাখবো। Missing data = empty array বা TODO comment।
 
-- [ ] Skills data — তোমার কাছ থেকে confirm করে add করবো (Python, ML stack etc.)
-- [ ] Education data — DIU details add করো
-- [ ] Projects array — শুধু DRISHTI-Bn এখন add করো (confirmed data), বাকিগুলো Phase 3-এ
-- [ ] Social links — GitHub, LinkedIn add করো
-- [ ] **Commit:** `feat(data): add confirmed constants (education, skills skeleton, social links)`
+- [x] Skills data — নিশ্চিত ডাটা দিয়ে `constants.ts`-এ add করা হলো
+- [x] Education data — DIU details add করা হলো
+- [x] Projects array — শুধু DRISHTI-Bn এখন add করা হলো (confirmed data), বাকিগুলো Phase 3-এ
+- [x] Social links — GitHub, LinkedIn, Email add করা হলো
+- [x] **Commit:** `feat(data): add confirmed constants (education, skills skeleton, social links)`
 
 ### 1.10 Reusable UI Components তৈরি
 
