@@ -61,9 +61,9 @@ npm install clsx tailwind-merge
 | `clsx` | ~20M | সাম্প্রতিক | MIT | ✅ Verified |
 | `tailwind-merge` | ~10M | সাম্প্রতিক | MIT | ✅ Verified |
 
-- [ ] সব package install হয়েছে
-- [ ] `npm audit` রান করো — 0 high/critical vulnerabilities
-- [ ] **Commit:** `chore: install framer-motion, lucide-react, resend, zod, clsx`
+- [x] সব package install হয়েছে
+- [x] `npm audit` রান করো — 0 high/critical vulnerabilities
+- [x] **Commit:** `chore: install framer-motion, lucide-react, resend, zod, clsx`
 
 ### 1.3 Folder Structure তৈরি
 
