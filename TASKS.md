@@ -349,13 +349,13 @@ npm run build   # Still clean
 
 ```
 প্রজেক্ট গেট চেকলিস্ট:
-[ ] DRISHTI-Bn         ✅ Description provided
-[ ] RoktoDut           ❌ README দাও
-[ ] HR Analytics       ❌ Description দাও (Power BI dashboard — কী insight দেখায়?)
-[ ] BanglaMind         ❌ Description দাও
-[ ] Shishu Mela        ❌ Description দাও
-[ ] Netflix Viz        ❌ Description দাও (কোন tool? কী insight?)
-[ ] BD Population      ❌ Description দাও
+[x] DRISHTI-Bn         ✅ Description provided
+[x] RoktoDut           ✅ README provided
+[x] HR Analytics       ✅ README provided
+[x] BanglaMind         ✅ README provided
+[x] Shishu Mela        ✅ README provided
+[x] Netflix Viz        ✅ README provided
+[x] BD Population      ✅ README provided
 ```
 
 > **কেন এই gate?** Section 8.2 এর Don'ts: "পুরো project একবারে না"। আর আরো গুরুত্বপূর্ণ — তোমার নিজের instruction: "Do not fabricate metrics, tech stack, or outcomes." Invented project descriptions হলো professional reputation-এর জন্য সবচেয়ে বড় ঝুঁকি।
@@ -650,12 +650,12 @@ Total:   ~38 commits  (meaningful, rollback-friendly history)
 | **Contact email** | Phase 4 (form can't send) | 🔴 Critical |
 | **Profile photo** | Phase 2 (About section) | 🔴 Critical |
 | **Bio text** | Phase 2 (About section) | 🔴 Critical |
-| **RoktoDut description** | Phase 3 (project card) | 🟡 Important |
-| **BanglaMind description** | Phase 3 (project card) | 🟡 Important |
-| **Shishu Mela description** | Phase 3 (project card) | 🟡 Important |
-| **HR Analytics description** | Phase 3 (project card) | 🟡 Important |
-| **Netflix Viz description** | Phase 3 (project card) | 🟡 Important |
-| **BD Population description** | Phase 3 (project card) | 🟡 Important |
+| **RoktoDut description** | Phase 3 (project card) | ✅ Provided |
+| **BanglaMind description** | Phase 3 (project card) | ✅ Provided |
+| **Shishu Mela description** | Phase 3 (project card) | ✅ Provided |
+| **HR Analytics description** | Phase 3 (project card) | ✅ Provided |
+| **Netflix Viz description** | Phase 3 (project card) | ✅ Provided |
+| **BD Population description** | Phase 3 (project card) | ✅ Provided |
 | **Work experience (if any)** | Phase 4 (timeline) | 🟢 Optional |
 | **CV/Resume file** | Phase 2 (Hero CTA link) | 🟢 Optional |
 
