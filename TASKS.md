@@ -421,21 +421,21 @@ npm run type-check   # tsc --noEmit
 
 ### 4.1 Experience & Education Section
 
-- [ ] `constants.ts`-এ Education timeline data যোগ করো:
+- [x] `constants.ts`-এ Education timeline data যোগ করো:
   - DIU — Software Engineering (Data Science specialization) — Aug 2022 – Dec 2026 (current)
   - যদি কোনো internship বা work experience থাকে — জানাও
-- [ ] `src/components/sections/Experience.tsx` তৈরি করো:
+- [x] `src/components/sections/Experience.tsx` তৈরি করো:
   - Vertical timeline layout
   - Animated vertical line (Framer Motion `pathLength` 0→1 on scroll)
   - Timeline items stagger in sequentially
   - "Current" badge on active position
   - Education + Experience একই timeline-এ (type দিয়ে differentiate)
-- [ ] **Commit:** `feat(experience): add Experience and Education timeline section`
+- [x] **Commit:** `feat(experience): add Experience and Education timeline section`
 
 ### 4.2 Contact Form — Zod Validation Schema
 
-- [ ] `src/lib/validations.ts` তৈরি করো — GUIDE.md Section 5-এ দেওয়া schema implement করো
-- [ ] **Commit:** `feat(contact): add Zod validation schema for contact form`
+- [x] `src/lib/validations.ts` তৈরি করো — GUIDE.md Section 5-এ দেওয়া schema implement করো
+- [x] **Commit:** `feat(contact): add Zod validation schema for contact form`
 
 ### 4.3 Contact API Route
 
@@ -449,18 +449,18 @@ npm run type-check   # tsc --noEmit
 // 6. Success response
 ```
 
-- [ ] `src/app/api/contact/route.ts` implement করো
-- [ ] Error handling সব edge case cover করছে কিনা check করো:
-  - [ ] Empty body
-  - [ ] Invalid email format
-  - [ ] Message too short
-  - [ ] Resend API down হলে
-  - [ ] Environment variable missing হলে
-- [ ] **Commit:** `feat(api): add contact form API route with Resend integration`
+- [x] `src/app/api/contact/route.ts` implement করো
+- [x] Error handling সব edge case cover করছে কিনা check করো:
+  - [x] Empty body
+  - [x] Invalid email format
+  - [x] Message too short
+  - [x] Resend API down হলে
+  - [x] Environment variable missing হলে
+- [x] **Commit:** `feat(api): add contact form API route with Resend integration`
 
 ### 4.4 Contact Section UI
 
-- [ ] `src/components/sections/Contact.tsx` তৈরি করো:
+- [x] `src/components/sections/Contact.tsx` তৈরি করো:
   - Left: "Let's Connect" heading + GitHub, LinkedIn, Email links
   - Right: Form (name, email, subject, message)
   - Client-side validation (form submit-এর আগে)
@@ -468,7 +468,7 @@ npm run type-check   # tsc --noEmit
   - Success state (AnimatePresence — checkmark animation + thank you message)
   - Error state (AnimatePresence — error message + retry option)
   - Form fields focus animation (label floats up — CSS transition)
-- [ ] **Commit:** `feat(contact): add Contact section with form and social links`
+- [x] **Commit:** `feat(contact): add Contact section with form and social links`
 
 ### 4.5 Contact Form Integration Test
 

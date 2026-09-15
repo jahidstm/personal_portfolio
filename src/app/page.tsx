@@ -2,6 +2,8 @@ import { About } from '@/components/sections/About';
 import { Hero } from '@/components/sections/Hero';
 import { Skills } from '@/components/sections/Skills';
 import { Projects } from '@/components/sections/Projects';
+import { Experience } from '@/components/sections/Experience';
+import { Contact } from '@/components/sections/Contact';
 
 export default function Home() {
   return (
@@ -18,11 +20,11 @@ export default function Home() {
       {/* Projects Section */}
       <Projects />
 
-      {/* Experience section placeholder */}
-      <section id="experience" className="min-h-screen px-6 py-24" />
+      {/* Experience Section */}
+      <Experience />
 
-      {/* Contact section placeholder */}
-      <section id="contact" className="min-h-screen px-6 py-24" />
+      {/* Contact Section */}
+      <Contact />
     </div>
   );
 }
