@@ -364,28 +364,27 @@ npm run build   # Still clean
 
 Skills data তোমার কাছ থেকে নিয়ে `constants.ts`-এ add করার পর:
 
-- [ ] `src/components/sections/Skills.tsx` তৈরি করো:
-  - Category tabs বা grouped grid (Languages, ML/AI, Data, Tools)
-  - প্রতিটা skill — icon (Lucide বা SVG) + name + level badge
-  - Scroll-triggered stagger animation (group by group)
-  - No percentage bars — percentage একটু gimmicky, level badge better
-- [ ] **Commit:** `feat(skills): add Skills section with category groups and animations`
+- [x] `src/components/sections/Skills.tsx` তৈরি করা হলো:
+  - Category tabs: All / Languages / ML/AI / Data Analytics / Web & Backend / Tools
+  - প্রতিটা skill — CheckCircle2 icon + name + level badge (Beginner/Proficient/Advanced/Expert)
+  - "All" view-এ grouped by category with horizontal dividers
+  - Scroll-triggered stagger animation via useInView
+  - Summary bar — category count breakdown
+- [x] **Commit:** `feat(skills+projects): add Skills section (Task 3.1)`
 
 ### 3.2 Projects Section
 
-শুধু confirmed data যোগ করা হবে — phase-by-phase:
+- [x] `src/components/sections/Projects.tsx` তৈরি করা হলো:
+  - Featured project (DRISHTI-Bn) — large card at top with highlights list
+  - Remaining projects — 3-column grid (desktop), 1-column (mobile)
+  - Each card: title, description (line-clamp-2), tech badges, GitHub link, status badge
+  - Hover: card lift (-4px) + border glow + inner radial glow
+  - Filter tabs: All / ML-AI / Web / Data Analytics / Dashboard
+  - Scroll-triggered stagger (cards appear one by one via AnimatePresence)
+  - "More coming soon" note — remaining projects await repo links
+- [x] **Commit:** `feat(skills+projects): add Projects section with verified data (Task 3.2)`
 
-- [ ] `constants.ts`-এ confirmed project data যোগ করো (missing READMEs পাওয়ার পর)
-- [ ] `src/components/sections/Projects.tsx` তৈরি করো:
-  - Featured project (DRISHTI-Bn) — larger card at top
-  - Remaining projects — 2-column grid (desktop), 1-column (mobile)
-  - Each card: title, description (max 2 lines), tech badges, GitHub link, status badge
-  - Hover: card lift + border glow + subtle overlay
-  - Filter tabs (optional): All / ML-AI / Web / Data
-  - Scroll-triggered stagger (cards appear one by one)
-- [ ] **Commit:** `feat(projects): add Projects section with verified data only`
-
-> **⚠️ Build-time check:** project cards-এ যদি কোনো field `undefined` হয় — TypeScript strict mode এটা catch করবে। কোনো `any` cast দেবো না।
+> **⚠️ Build-time check:** ✅ TypeScript strict build passed — zero errors.
 
 ---
 
@@ -396,13 +395,13 @@ npm run build
 npm run type-check   # tsc --noEmit
 ```
 
-- [ ] Zero TypeScript errors
-- [ ] প্রতিটা project card-এ শুধু verified data আছে — কোনো invented metric নেই
-- [ ] GitHub links সব actual valid URLs
-- [ ] Project filter (যদি implement করা হয়) কাজ করছে
-- [ ] Mobile-এ cards overflow করছে না
-- [ ] Cards-এ focus state আছে (keyboard navigation)
-- [ ] **Commit:** `chore: phase 3 complete - skills and projects verified`
+- [x] Zero TypeScript errors
+- [x] প্রতিটা project card-এ শুধু verified data আছে — কোনো invented metric নেই
+- [x] GitHub links সব actual valid URLs
+- [x] Project filter কাজ করছে (category tabs functional)
+- [x] Mobile-এ cards overflow করছে না (responsive grid)
+- [x] Cards-এ focus state আছে (keyboard navigation via Link + button)
+- [x] **Commit:** `chore: phase 3 skills and projects verified`
 
 ---
 
